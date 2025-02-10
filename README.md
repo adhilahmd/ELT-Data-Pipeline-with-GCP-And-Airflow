@@ -57,5 +57,9 @@ Transform data into country-specific tables. load data to Transform_dataset in B
 
 ![Alt text](transform%20tables/transform_4.png)
 
+# View Tables
+- Created View for each Tables to get the data of each country which doesnt have vaccination for Disease.
+- Reduced the number of columns to only required 5 columns.
+
 
   
