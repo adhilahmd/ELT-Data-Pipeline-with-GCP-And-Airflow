@@ -41,6 +41,16 @@ vaccination.
 ## Connected Airflow using Compute Engine.
 ![Alt text](SSH%20command.png)
 ![Alt text](SSH%20command_2.png)
+## Created Airflow Dag with Four Jobs
+1. Check if the file exists in GCS
+2. Load CSV from GCS to BigQuery
+3. Create country-specific tables and store them in a list
+4. create view for each country-specific table with selected columns and filter
+![Alt text](airflow/Airflow_2.png)
+# Airflow python script
+## Includes sql query for views to get the data of each country which doesnt has vaccination for disease
+https://github.com/adhilahmd/ELT-Data-Pipeline-with-GCP-And-Airflow/blob/main/ELT_code.py
+   
 
 
   
