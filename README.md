@@ -60,6 +60,12 @@ Transform data into country-specific tables. load data to Transform_dataset in B
 # View Tables
 - Created View for each Tables to get the data of each country which doesnt have vaccination for Disease.
 - Reduced the number of columns to only required 5 columns.
+  - [view_tables](view%20tables)
 
+    ![Alt text](view%20tables/view_2.png)
+    
+# looker Studio Report
+![Alt text](looker1.png)
+![Alt text](looker2.png)
 
   
