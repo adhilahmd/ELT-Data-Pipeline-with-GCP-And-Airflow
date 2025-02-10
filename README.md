@@ -35,8 +35,12 @@ vaccination.
 
 # Source Data
   Global Health Statistics Data Containing over 1 million Records
-  ![Alt text](rawdata.png)
+  ![Alt text](row%20table/rawdata.png)
 
+# Airflow
+## Connected Airflow using Compute Engine.
+![Alt text](SSH%20command.png)
+![Alt text](SSH%20command_2.png)
 
 
   
