@@ -24,7 +24,18 @@ vaccination.
 - Generate clean and structured datasets for analysis.
 
 # Architecture
+![Alt text](architecture.png)
+# Tools and services
+1. Google cloud platform(GCP)
+   - Google compute engine(Airflow)
+   - Bigquery
+   - cloud storage
+2. Apache Airflow
+   - Airflow with google cloud providers
 
+# Source Data
+  Global Health Statistics Data Containing over 1 million Records
+  ![Alt text](rawdata.png)
 
 
 
