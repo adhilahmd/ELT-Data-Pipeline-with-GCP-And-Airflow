@@ -34,7 +34,8 @@ vaccination.
    - Airflow with google cloud providers
 
 # Source Data
-  Global Health Statistics Data Containing over 1 million Records
+## Global Health Statistics Data Containing over 1 million Records. load raw data from google cloud storage to global_data Dataset in Bigquery
+  
   ![Alt text](row%20table/rawdata.png)
 
 # Airflow
@@ -48,9 +49,13 @@ vaccination.
 4. create view for each country-specific table with selected columns and filter
 ![Alt text](airflow/Airflow_2.png)
 # Airflow python script
-## Includes sql query for views to get the data of each country which doesnt has vaccination for disease
+ Includes sql query for views to get the data of each country which doesnt has vaccination for disease:
 https://github.com/adhilahmd/ELT-Data-Pipeline-with-GCP-And-Airflow/blob/main/ELT_code.py
-   
+# Transform Tables
+Transform data into country-specific tables. load data to Transform_dataset in Bigquery
+- [transform_tables](transform%20tables)
+
+![Alt text](transform%20tables/transform_4.png)
 
 
   
